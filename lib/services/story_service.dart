@@ -7,7 +7,7 @@ class StoryService {
   final Dio _dio = Dio(BaseOptions(
     baseUrl: "https://api.openai.com/v1",
     headers: {
-      "Authorization": "Bearer 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", // API Key desde .env
+      "Authorization": "Bearer ${dotenv.env['OPENAI_API_KEY']}", // API Key desde .env
       "Content-Type": "application/json",
     },
   ));
