@@ -49,3 +49,13 @@ app.*.map.json
 assets/.env
 assets/.env
 assets/.env
+
+# Flutter
+build/
+.melos/
+.dart_tool/
+.packages
+.pub/
+.idea/
+android/.gradle/
+android/app/debug.keystore
